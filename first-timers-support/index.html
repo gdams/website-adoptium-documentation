@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.16">
-<title>Adoptium Documentation</title>
+<title>First Timers Support (DRAFT)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,19 +436,127 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
-<h1>Adoptium Documentation</h1>
+<h1>First Timers Support (DRAFT)</h1>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>This is a homepage</p>
+<p>At Adoptium we want to help people to get into OpenSource, Java and the Java Community.
+Therefore it is quite important for us to provide help to people that want to start working on open source.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>This documentation is still work in progress and some points that are mentioned are ideas for the future that has not been established yet.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Adoptium provides several issues that are labeled as <strong><code>good first issue</code></strong>.
+All this issues are perfect to start working on an open source project.
+The issues provide user friendly descriptions and a lot or helpful links to documentations and tutorials to directly start working on such issue.
+Even if you are not really familiar with GitHub in general the issues link to user friendly tutorials that will help users to
+understand the workflows of forks and pull requests.</p>
+</div>
+<div class="paragraph">
+<p>You can find <a href="https://github.com/AdoptOpenJDK/IcedTea-Web/issues/706">an example of a <strong><code>good first issue</code></strong> in the IcedTea-Web repository</a>.</p>
+</div>
+<div class="paragraph">
+<p>In GitHub you can find <a href="https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue%22+is%3Aopen">a list of all issues that are labeled by <strong><code>good first issue</code></strong></a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_templates"><a class="anchor" href="#_templates"></a>Templates</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We are currently working on an issue template for issues that are labeled as a <strong><code>good first issue</code></strong>.
+<a href="https://gist.github.com/hendrikebbers/8e4dec9ddea5e2a420080d1314af025f">The current version of the issue template</a> and
+<a href="https://gist.github.com/hendrikebbers/0f9cdd18076343b3bbe5f2d162733b6e">a section about "First timers support" to contributing.md files</a>
+are currently in development.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_workflow_to_create_good_first_issues"><a class="anchor" href="#_workflow_to_create_good_first_issues"></a>Workflow to create good first issues</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Whenever you assume that an issue could be a <strong><code>good first issue</code></strong> you should label it with the <strong><code>good first issue - candidate</code></strong> label.
+By doing so it can be reviewed and modified to become a <strong><code>good first issue</code></strong>.</p>
+</div>
+<div class="paragraph">
+<p>In GitHub you can find <a href="https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue+-+candidate%22+is%3Aopen">a list of all issues that are labeled by <strong><code>good first issue - candidate</code></strong></a>.</p>
+</div>
+<div class="paragraph">
+<p>All issues that are labeled as <strong><code>good first issue - candidate</code></strong> should be reviewed and maybe refactored to become <strong><code>good first issue</code></strong> labeled issues.
+Here the following rules should be applied:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The title of the issue must specify the problem</p>
+</li>
+<li>
+<p>The description of the issue must be based on <a href="https://gist.github.com/hendrikebbers/0f9cdd18076343b3bbe5f2d162733b6e">our <strong><code>good first issue</code></strong> template</a></p>
+</li>
+<li>
+<p>The issue should not contain any comments. Comments make it already harder to understand for a newbie.
+All relevant information that are in the comments should be added to the description of the issue.
+The comments should be removed afterwards.
+If this is not possible the best solution is to create a new issue for the <strong><code>good first issue</code></strong>, link it to the original one, and close the original one.</p>
+</li>
+<li>
+<p>When defining the description of the issue it always makes sense to link to documentations or helpful files (maybe even directly to the code)
+to help a newcomer to find the right starting point to work on the issue.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Once the issue is refactored and reviewed it should be labeled as <strong><code>good first issue</code></strong> and the <strong><code>good first issue - candidate</code></strong> label should be removed.
+Next to this we should label all this issues with <strong><code>help wanted</code></strong> and <strong><code>Hacktoberfest</code></strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links_resources"><a class="anchor" href="#_links_resources"></a>Links &amp; Resources</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue%22+is%3Aopen">List of all issues that are labeled by <strong><code>good first issue</code></strong></a></p>
+</li>
+<li>
+<p><a href="https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue+-+candidate%22+is%3Aopen">List of all issues that are labeled by <strong>`good first issue - candidate `</strong></a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/hendrikebbers/8e4dec9ddea5e2a420080d1314af025f">Current version of the issue template</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/hendrikebbers/0f9cdd18076343b3bbe5f2d162733b6e">Current version of a section about "First timers support" for contributing.md files</a></p>
+</li>
+<li>
+<p><a href="https://github.com/AdoptOpenJDK/IcedTea-Web/issues/706">An example of a <strong><code>good first issue</code></strong></a></p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-10-12 09:17:48 UTC
+Last updated 2021-10-12 09:23:40 UTC
 </div>
 </div>
 </body>
