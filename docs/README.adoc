@@ -1,0 +1,3 @@
+= Adoptium Documentation
+
+This is a homepage
