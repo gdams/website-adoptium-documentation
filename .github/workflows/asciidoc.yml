@@ -18,7 +18,7 @@ jobs:
       id: adocbuild
       uses: avattathil/asciidoctor-action@master
       with:
-          program: "asciidoctor -D public/ --backend=html5 -o index.html docs/README.adoc"
+          program: "asciidoctor --source-dir=. --base-dir=. '*/*.adoc' -D public/ --backend=html5 -o index.html docs/README.adoc"
 
     - name: Copy Shared folder to public/ dir
       run: sudo cp -r shared/ public/
